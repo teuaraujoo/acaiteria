@@ -16,8 +16,8 @@ tl.to(
     '#copoacai', 
     {
         top: '110%',
-        left: '3%',
-        width: '35%',
+        left: '5%',
+        width: '29%',
     }, 
     'orange'
 );
@@ -25,7 +25,7 @@ tl.to(
 tl.to(
     '#acai', 
     {
-        top: '158%',
+        top: '155%',
         left: '20%',
         width: '16%',
         rotate: '-25deg',
@@ -74,8 +74,9 @@ var tl2 = gsap.timeline({
     }
 });
 
+
 tl2.from(
-    '.pipoca', 
+    '#tapioca', 
     {   
         rotate: '-90deg', 
         left: '-100%',
@@ -84,28 +85,9 @@ tl2.from(
     'ca'
 );
 
-tl2.from(
-    '#churros', 
-    {   
-        rotate: '-90deg', 
-        left: '-100%',
-        top: '110%',
-    }, 
-    'ca'
-);
 
 tl2.from(
-    '.doce', 
-    {   
-        rotate: '90deg', 
-        left: '100%',
-        top: '110%',
-    }, 
-    'ca'
-);
-
-tl2.from(
-    '#pipocar', 
+    '#burguer', 
     {   
         rotate: '90deg', 
         left: '100%',
@@ -115,9 +97,8 @@ tl2.from(
 );
 
 
-
 tl2.from(
-    '#acaicar', 
+    '#poteacai', 
     {   
         rotate: '-90deg', 
         left: '-100%',
@@ -135,7 +116,7 @@ var tl3 = gsap.timeline({
     }
 });
 
-// Animação para a seção "Sobre"
+// Fade-in "Sobre"
 gsap.to('#about', {
     scrollTrigger: {
         trigger: '#about',
