@@ -34,16 +34,6 @@ tl.to(
 );
 
 tl.to(
-    '#laranja', 
-    {
-        width: '15%',
-        top: '168%',
-        right: '10%'
-    }, 
-    'orange'
-);
-
-tl.to(
     '#folha', 
     {
         top: '110%',
@@ -143,4 +133,154 @@ window.addEventListener('load', function() {
 
     document.getElementById('hero').classList.add('is-visible');
     document.querySelector('.nav-container').classList.add('is-visible');
+});
+
+let mm = gsap.matchMedia();
+
+mm.add("(max-width: 1728px)", () => {
+
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#about',
+            start: '0% 95%',
+            end: '70% 50%',
+            scrub: 1,
+            // markers: true
+        }
+    });
+
+    tl.to('#copoacai', {
+        top: '120%',
+    }, 'orange');
+
+    tl.to('#acai', {
+        top: '155%',
+    }, 'orange');
+
+    tl.to('#folha2', {
+        left: '8%',
+    }, 'orange');
+
+    ScrollTrigger.refresh();
+});
+
+mm.add("(max-width: 1440px)", () => {
+
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#about',
+            start: '0% 95%',
+            end: '70% 50%',
+            scrub: 1,
+            // markers: true
+        }
+    });
+
+    tl.to('#copoacai', {
+        top: '125%',
+    }, 'orange');
+
+    tl.to('#acai', {
+        top: '160%',
+    }, 'orange');
+
+    tl.to('#folha', {
+        top: '112%',
+        width: '18%',
+    }, 'orange');
+
+    tl.to('#folha2', {
+        top: '112%',
+        left: '5%',
+    }, 'orange');
+
+    
+    ScrollTrigger.refresh();
+});
+
+mm.add("(max-width: 1000px)", () => {
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#about',
+            start: '0% 95%',
+            end: '70% 50%',
+            scrub: 1,
+            // markers: true
+        }
+    });
+
+    tl.to('#copoacai', {
+        top: '132%',
+    }, 'orange');
+
+    tl.to('#acai', {
+        top: '149%',
+    }, 'orange');
+
+    tl.to('#folha', {
+        top: '125%',
+    }, 'orange');
+
+    tl.to('#folha2', {
+        top: '115%',
+        left: '8%',
+    }, 'orange');
+
+    ScrollTrigger.refresh();
+});
+
+mm.add("(max-width: 728px)", () => {
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#about',
+            start: '0% 95%',
+            end: '70% 50%',
+            scrub: 1, 
+            // markers: true
+        }
+    });
+
+    tl.to('#copoacai', {
+        top: '118%',
+        left: '32%',
+    }, 'orange');
+
+    tl.to('#acai', {
+        top: '128%',
+        left: '50%',
+    }, 'orange');
+
+    tl.to('#folha', {
+        top: '145%',
+    }, 'orange');
+
+    ScrollTrigger.refresh();
+});
+
+mm.add("(max-width: 428px)", () => {
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#about',
+            start: '0% 95%',
+            end: '70% 50%',
+            scrub: 1, 
+            // markers: true
+        }
+    });
+
+    tl.to('#copoacai', {
+        top: '110%',
+        left: '32%',
+    }, 'orange');
+
+    tl.to('#acai', {
+        top: '122%',
+        left: '50%',
+    }, 'orange');
+
+    tl.to('#folha', {
+        top: '150%',
+    }, 'orange');
+
+    ScrollTrigger.refresh();
 });
