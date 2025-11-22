@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script>
+            if (history.scrollRestoration) {
+                history.scrollRestoration = 'manual';
+            } else {
+                window.onbeforeunload = function () {
+                    window.scrollTo(0, 0);
+                };
+            }
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Carrinhos de Entretenimento Gastronômico: Confira os melhores carros de comida para seu evento!">
+        <meta name="keywords" content="Carrinhos de Entretenimento Gastronômico, Aracaju, Carros de Comida Aracaju, Melhores carros de comida Aracaju, carros de comida aracaju, Pontos turísticos aracaju, Acai, Churros, Pipoca, Carrinho de Pipoca">
+        <meta name="robots" content="index, follow"/>  
+        <meta name="author" content="Mateus Araujo"/>
+        <link rel="shortcut icon" type="images/png" href="./assets/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="/src/styles/style.css">
+        <title>Em festa - Entretenimento Gastronômico</title>
+    </head>
+    <body>
+        <div id="main"> 
+
+            <!-- NAV BAR -->
+            
+            <nav class="nav-container">
+                <a class="logo">EM FESTA</a>
+                <div class="nav-menu">
+                    <a href="#hero">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#products">Produtos</a>
+                    <a href="#contact">Contato</a>
+                </div> 
+                <img src="/src/Assets/menu.png"/>  
+            </nav>
+
+            <!-- HERO SECTION -->
+
+            <div id="hero">
+                <h1>EM FESTA</h1>
+                <img id="acai" src="/src/Assets/frutaacai.png"/>
+                <img id="copoacai" src="/src/Assets/copoacai.png"/>
+                <img id="folha" src="/src/Assets/leaf.webp"/>
+                <img id="folha2" src="/src/Assets/leaf2.png"/>
+                <img id="folha3" src="/src/Assets/leaf3.png"/>
+                <div class="contact-socials hero">
+                    <div class="social-btn hero">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="social-btn hero">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="social-btn hero">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="social-btn hero">
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ABOUT SECTION -->
+
+            <div id="about">
+
+                <!-- LADO ESQUERDO -->
+
+                <div class="left-side">
+                    <svg  
+                        viewBox="0 0 200 200"                     
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path   
+                            fill="#f1a154"                            
+                            d="M41.5,-59.5C49.8,-51.1,49.7,-33.6,50.7,-19.2C51.7,-4.7,53.8,6.7,52.4,18.9C51.1,31.1,46.3,44.1,36.9,52.9C27.6,61.8,13.8,66.5,-2.5,70C-18.8,73.4,-37.7,75.6,-52.5,68.5C-67.3,61.5,-78.2,45.2,-84.5,27.1C-90.9,9,-92.7,-10.8,-80.5,-19.3C-68.3,-27.8,-42.1,-24.8,-26.3,-30.8C-10.6,-36.8,-5.3,-51.7,5.7,-59.5C16.6,-67.3,33.2,-68,41.5,-59.5Z"
+                            transform="translate(100 100)" 
+                        />                    
+                    </svg>
+                </div>
+
+                <!-- LADO DIREITO -->
+
+                <div class="right-side">
+                    <h2>Sobre Nós</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                        <a href="#" class="bnt about"><span>Entre em contato</span><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- PRODUCTS SECTION -->
+
+            <div id="products">
+                <h1>Confira Nossos Produtos</h1>
+
+                <!-- CARDS - PRODUCT -->
+
+                <div class="container-card">
+                    <div class="card">
+                        <img id="churros" src="/src/Assets/churros.png">
+                        <div class="content-card">
+                            <h3>Carro Churros</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nam corrupti quis, quaerat id commodi quam? Officia, voluptas. Repudiandae nobis similique obcaecati itaque eligendi. Magnam expedita explicabo harum odio molestias.</p>
+                            <a href="#" class="bnt"><span>Orçamento</span><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img id="acaicar" src="/src/Assets/carrinhoacai.png">
+                        <div class="content-card">
+                            <h3>Carro Açaí</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam optio laborum dolores cumque sint nisi, aperiam at neque unde blanditiis similique atque modi quae illum architecto. Fugit, reprehenderit consequuntur.</p>
+                            <a href="#" class="bnt"><span>Orçamento</span><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img id="pipocar" src="/src/Assets/carrinhopipoca.png">
+                        <div class="content-card">
+                            <h3>Carro Pipoca</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum repudiandae ducimus eligendi quam, odio blanditiis unde asperiores, deserunt qui perspiciatis. Esse, quaerat cum ratione dolorum amet vel dolorem porro?</p>
+                            <a href="#" class="bnt"><span>Orçamento</span><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARROSSEL INFINITO -->
+
+            <div id="acting">
+                <div class="acting-container">
+                    <div class="group">
+                        <div class="tag">Encomendas</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Delivery</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Festas</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Casamentos</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Eventos</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Aniversários</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Corporativo</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Infantil</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                    </div>
+                    <div aria-hidden class="group">
+                        <div class="tag">Encomendas</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Delivery</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Festas</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Casamentos</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Eventos</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Aniversários</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Corporativo</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                        <div class="tag">Infantil</div>
+                        <div class="tag icons"><i class="fa-regular fa-star"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT SECTION -->
+
+            <div id="contact">
+                <div class="contact-container">
+                    <h1>O que está esperando?<br> Faça seu orçamento agora!</h1>
+                    <a href="#" class="bnt contact"><span>Entre em contato</span><i class="fa-solid fa-arrow-right"></i></a>
+                    <div class="contact-socials">
+                        <div class="social-btn">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="social-btn">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="social-btn">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOTER - RODAPÉ -->
+
+            <!-- <div id="footer">
+                <h1>Em Festa</h1>
+                <p>Siga Nos nas Redes Sociais</p>
+                <div class="socials-footer">
+                    <div class="social-btn footer">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="social-btn footer">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <p>© Copyright 2025 EmFesta.</p>
+                <p>Desenvolvido por <a href="#"><span>Mateus Araujo</span></a></p>
+            </div> -->
+
+            <div id="footer">
+                <div class="company">
+                    <h1>EmFesta</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati maxime quisquam delectus, ipsum veritatis aliquid ab dolorum quaerat modi laudantium.</p>
+                </div>
+                <div class="footer-about">
+                    <h1>Contact</h1>
+                    <div class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Aracaju - Sergipe</p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#"><p>emfesta@testemail.com</p></a>
+                    </div>
+                    <div class="info">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#"><p>(79) 99999-9999</p></a>
+                    </div>
+                </div>
+                <div class="links">
+                    <h1>Links Úteis</h1>
+                    <a href="#hero">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#products">Produtos</a>
+                    <a href="#contact">Contato</a>
+                </div>
+            </div>
+            <div class="direitos">  
+                <p>© Copyright 2025 EmFesta. Desenvolvido por <a href="https://Instagram.com/teu.araujoo/" target="_blank"><span>Mateus Araujo</span></a></p>
+            </div>
+        </div>
+
+        <!-- JAVASCRIPT - GSAP  -->
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    </script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    </script>
+    <script src="/src/script/script.js"></script>
+</body>
+</html>
