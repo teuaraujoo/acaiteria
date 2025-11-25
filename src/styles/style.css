@@ -952,7 +952,7 @@ body::-webkit-scrollbar {
 }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 420px) {
 
 .nav-container img {
     width: 10px;
